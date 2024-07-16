@@ -13,4 +13,5 @@ If you're on linux and want to convert all your songs in a folder, you can do th
 for i in *.mp3; do ffmpeg -i "$i" -c:a pcm_u8 -fflags +bitexact -flags:a +bitexact -ac 2 -ar 48k "${i%.}.wav"; done
 ```
 
+\
 I will not add anymore songs after this, so pull requests are welcome. Thanks you.
