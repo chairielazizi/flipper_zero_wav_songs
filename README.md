@@ -1,5 +1,6 @@
 # Flipper Zero Wav Files
 A collection of wav format songs for Flipper Zero.
+Please put the wav files in the root of your SD card in th wav_player folder.
 
 You can do it by yourself.
 I convert my mp3 files based on Uberguido's Guide:
