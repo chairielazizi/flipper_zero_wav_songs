@@ -18,4 +18,4 @@ for i in *.mp3; do ffmpeg -i "$i" -c:a pcm_u8 -fflags +bitexact -flags:a +bitexa
 I think I will not add any more songs after this, so pull requests are welcome. Thank you.
 
 \
-Tips: If your wav files is not detected or does not appear in the wav_player fap, remove any single quote or double quote ( ' and ")
+Tips: If your wav files is not detected or does not appear in the wav_player fap, remove any single quote or double quote ( ' and ") in your file's name.
