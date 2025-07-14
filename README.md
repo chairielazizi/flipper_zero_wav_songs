@@ -15,6 +15,9 @@ for i in *.mp3; do ffmpeg -i "$i" -c:a pcm_u8 -fflags +bitexact -flags:a +bitexa
 ```
 
 \
+This site also works: https://alexiii.github.io/web-wav-converter
+
+\
 I think I will not add any more songs after this, so pull requests are welcome. Thank you.
 
 \
